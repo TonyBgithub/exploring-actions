@@ -1,5 +1,8 @@
 name: GitHub Actions
-on: push
+on:
+  push:
+    branches: [master]
+    
 jobs: 
   Example-Actions-Job: 
     name: Exploring GitHub Actions
